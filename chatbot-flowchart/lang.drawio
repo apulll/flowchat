@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2020-04-28T11:36:27.685Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" version="12.9.6" etag="hIOF2mR4kc8MoW0MgbIN" type="github"><diagram id="GSO8fKCuC4eVYiWRZeHD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-26T07:11:15.933Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="gcBAgl-pofYwhPUhOXI7" version="14.2.7" type="github">
+  <diagram id="GSO8fKCuC4eVYiWRZeHD" name="Page-1">
+    <mxGraphModel dx="2893" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MUhLizBDsVxyA73bVkP2-20" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 16px&quot;&gt;由rosta负责接口开发&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="70" width="1050" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-16" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 16px&quot;&gt;由qingpuchen负责开发&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="380" width="1050" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MUhLizBDsVxyA73bVkP2-1" target="MUhLizBDsVxyA73bVkP2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-13" value="写入配置元数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MUhLizBDsVxyA73bVkP2-8">
+          <mxGeometry x="-0.0308" y="-1" relative="1" as="geometry">
+            <mxPoint y="-55" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-1" value="CMS系统&lt;br&gt;解决方案配置功能" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="440" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MUhLizBDsVxyA73bVkP2-3" target="MUhLizBDsVxyA73bVkP2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-14" value="渲染页面" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MUhLizBDsVxyA73bVkP2-11">
+          <mxGeometry x="-0.0455" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-3" value="qcloud-intl" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="590" y="620" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-4" value="国际站web" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="620" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MUhLizBDsVxyA73bVkP2-6" target="MUhLizBDsVxyA73bVkP2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-12" value="读取配置元数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MUhLizBDsVxyA73bVkP2-9">
+          <mxGeometry x="-0.3043" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="123" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-6" value="sql" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-10" value="根据配置数据组装前端组件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MUhLizBDsVxyA73bVkP2-7" target="MUhLizBDsVxyA73bVkP2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-7" value="解决方案组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="620" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MUhLizBDsVxyA73bVkP2-15" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 16px&quot;&gt;由香港团队负责开发&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="960" y="380" width="330" height="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
